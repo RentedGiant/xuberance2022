@@ -1,0 +1,103 @@
+name: exebit21_covid
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+  floating_bottom_navigation_bar: ^1.5.2
+  flutter_neumorphic: ^3.0.3
+  connectivity: ^3.0.6
+  outline_material_icons: ^0.1.1
+  url_launcher: ^6.0.5
+  http: ^0.13.3
+  flutter_webview_plugin: ^0.4.0
+  selection_menu: ^1.0.0
+  ndialog: ^4.1.0
+  timeago: ^3.1.0
+  page_transition: ^2.0.2
+  image_picker: ^0.8.2
+  random_string: ^2.3.1
+  expand_widget: ^2.1.0
+  auto_size_text: ^2.1.0
+  curved_navigation_bar: ^1.0.3
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - assets/images/a_dot_burr.jpeg
+  #  - assets/images/a_dot_ham.jpeg
+  
+  # or to include all assets from a directory do this:
+  # assets:
+  #   - assets/images/
+  
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+  assets:
+    - assets/images/
+  
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: assets/fonts/Schyler-Regular.ttf
+  #       - asset: assets/fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: assets/fonts/TrajanPro.ttf
+  #       - asset: assets/fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
+  fonts:
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/Arial.ttf
+    - family: Arial Rounded MT Bold
+      fonts:
+        - asset: assets/fonts/Arial Rounded Bold.ttf
+    - family: Arial Black
+      fonts:
+        - asset: assets/fonts/Arial Black.ttf
+          weight: 900

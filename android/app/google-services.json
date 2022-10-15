@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941139439756",
+    "project_id": "lsa-21",
+    "storage_bucket": "lsa-21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941139439756:android:f805b57820c9dc503bcba9",
+        "android_client_info": {
+          "package_name": "com.example.covid_exebit21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941139439756-s1tu6n52def02cagcb1182tdbbrsf7q3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATU6LsJJfiW_RkrHZ1trri8MU76jbg_kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941139439756-s1tu6n52def02cagcb1182tdbbrsf7q3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
